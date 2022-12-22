@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/SHRP-Devices/device_samsung_hero2lte -b fox_12.1"
+export DT_LINK="https://github.com/OrangeFoxRecovery/device_xiaomi_mojito.git -b fox_12.1"
 
 export DEVICE="mojito"
 export OEM="xiaomi"
