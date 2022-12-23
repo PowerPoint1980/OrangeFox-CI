@@ -19,7 +19,7 @@ export OUTPUT="OrangeFox12.1*.zip"
 # Format: "repo dest"
 DEPS=(
     "https://github.com/OrangeFoxRecovery/Avatar.git misc"
-    "git clone --depth=1 <kernel_src_link> kernel/xiaomi/sm6150"
+    "git clone --depth=1 https://github.com/xiaomi-sdm678/android_kernel_xiaomi_mojito kernel/xiaomi/sm6150"
 )
 
 # Extra Command
