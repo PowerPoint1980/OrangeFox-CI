@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/OrangeFoxRecovery/device_samsung_hero2lte/tree/fox_11.0 -b fox_11.0"
+export DT_LINK="https://github.com/PowerPoint1980/device_samsung_hero2lte -b fox_11.0"
 
 export DEVICE="hero2lte"
 export OEM="samsung"
