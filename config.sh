@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/PowerPoint1980/device_xiaomi_mojito -b fox_12.1"
+export FOX_BRANCH="fox_11.0"
+export DT_LINK="https://github.com/OrangeFoxRecovery/device_samsung_hero2lte/tree/fox_11.0 -b fox_11.0"
 
-export DEVICE="mojito"
-export OEM="xiaomi"
+export DEVICE="hero2lte"
+export OEM="samsung"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
@@ -19,7 +19,6 @@ export OUTPUT="OrangeFox12.1*.zip"
 # Format: "repo dest"
 DEPS=(
     "https://github.com/OrangeFoxRecovery/Avatar.git misc"
-    "git clone --depth=1 https://github.com/xiaomi-sdm678/android_kernel_xiaomi_mojito kernel/xiaomi/sm6150"
 )
 
 # Extra Command
