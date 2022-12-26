@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/PowerPoint1980/device_samsung_hero2lte -b fox_11.0"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/PowerPoint1980/device_xiaomi_mojito -b fox_12.1"
 
-export DEVICE="hero2lte"
-export OEM="samsung"
+export DEVICE="sunny"
+export OEM="xiaomi"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="recoveryimage"
+export TARGET="bootimage"
 
 export OUTPUT="OrangeFox12.1*.zip"
 
@@ -19,6 +19,7 @@ export OUTPUT="OrangeFox12.1*.zip"
 # Format: "repo dest"
 DEPS=(
     "https://github.com/OrangeFoxRecovery/Avatar.git misc"
+    "--depth=1 https://github.com/xiaomi-sdm678/android_kernel_xiaomi_mojito kernel/xiaomi/sm6150"
 )
 
 # Extra Command
