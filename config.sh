@@ -4,7 +4,7 @@
 export FOX_BRANCH="fox_12.1"
 export DT_LINK="https://github.com/PowerPoint1980/device_xiaomi_mojito -b fox_12.1"
 
-export DEVICE="sunny"
+export DEVICE="mojito"
 export OEM="xiaomi"
 
 # Build Target
@@ -19,7 +19,7 @@ export OUTPUT="OrangeFox12.1*.zip"
 # Format: "repo dest"
 DEPS=(
     "https://github.com/OrangeFoxRecovery/Avatar.git misc"
-    "--depth=1 https://github.com/xiaomi-sdm678/android_kernel_xiaomi_mojito kernel/xiaomi/sm6150"
+    "https://github.com/xiaomi-sdm678/android_kernel_xiaomi_mojito kernel/xiaomi/sm6150"
 )
 
 # Extra Command
